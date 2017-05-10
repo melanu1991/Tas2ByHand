@@ -13,6 +13,7 @@
 		15BEB2C51EB7B80A00BB02D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BEB2C31EB7B80A00BB02D2 /* Main.storyboard */; };
 		15BEB2C71EB7B80A00BB02D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15BEB2C61EB7B80A00BB02D2 /* Assets.xcassets */; };
 		15BEB2CA1EB7B80A00BB02D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15BEB2C81EB7B80A00BB02D2 /* LaunchScreen.storyboard */; };
+		15C582081EBDEC89009F097D /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C582071EBDEC89009F097D /* SecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		15BEB2C61EB7B80A00BB02D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15BEB2C91EB7B80A00BB02D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15BEB2CB1EB7B80A00BB02D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15C582061EBDEC89009F097D /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		15C582071EBDEC89009F097D /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				15BEB2BE1EB7B80900BB02D2 /* AppDelegate.m */,
 				15BEB2C01EB7B80900BB02D2 /* ViewController.h */,
 				15BEB2C11EB7B80A00BB02D2 /* ViewController.m */,
+				15C582061EBDEC89009F097D /* SecondViewController.h */,
+				15C582071EBDEC89009F097D /* SecondViewController.m */,
 				15BEB2C31EB7B80A00BB02D2 /* Main.storyboard */,
 				15BEB2C61EB7B80A00BB02D2 /* Assets.xcassets */,
 				15BEB2C81EB7B80A00BB02D2 /* LaunchScreen.storyboard */,
@@ -149,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15C582081EBDEC89009F097D /* SecondViewController.m in Sources */,
 				15BEB2C21EB7B80A00BB02D2 /* ViewController.m in Sources */,
 				15BEB2BF1EB7B80900BB02D2 /* AppDelegate.m in Sources */,
 				15BEB2BC1EB7B80900BB02D2 /* main.m in Sources */,
@@ -261,6 +267,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = Task2ByHand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VA.Task2ByHand;
@@ -272,6 +279,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				INFOPLIST_FILE = Task2ByHand/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = VA.Task2ByHand;
@@ -298,6 +306,7 @@
 				15BEB2D01EB7B80A00BB02D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

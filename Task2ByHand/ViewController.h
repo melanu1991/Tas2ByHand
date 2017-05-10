@@ -10,5 +10,16 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, unsafe_unretained) IBOutlet UITextField *firstName;
+@property (nonatomic, unsafe_unretained) IBOutlet UITextField *lastName;
+@property (nonatomic, unsafe_unretained) IBOutlet UIButton *buttonHelloName;
+@property (nonatomic, unsafe_unretained) IBOutlet UIButton *buttonJump;
+@property (nonatomic, unsafe_unretained) IBOutlet UILabel *lFirstName;
+@property (nonatomic, unsafe_unretained) IBOutlet UILabel *lLastName;
+@property (nonatomic, unsafe_unretained) IBOutlet UILabel *myLabel;
+
+-(IBAction)buttonHello:(id)sender;
+-(IBAction)buttonJump:(id)sender;
+
 @end
 
